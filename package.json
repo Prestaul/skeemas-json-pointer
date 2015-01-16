@@ -1,0 +1,21 @@
+{
+  "name": "skeemas-json-pointer",
+  "version": "1.0.0",
+  "description": "Lightweight implementation of JSON Pointers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "keywords": [
+    "json-pointer",
+    "json",
+    "path",
+    "json-schema"
+  ],
+  "author": "Matt Dunlap <mpdunlap@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
