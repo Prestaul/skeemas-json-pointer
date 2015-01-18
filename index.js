@@ -8,7 +8,7 @@ function fastMap(array, fn) {
 }
 
 function decodeToken(ref) {
-	return ref.replace(/~1/g, '/').replace(/~0/g, '~');
+	return decodeURI(ref.replace(/~1/g, '/').replace(/~0/g, '~'));
 }
 
 function parse(strPointer) {
