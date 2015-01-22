@@ -111,7 +111,7 @@ describe('jsonPointer', function() {
 		});
 
 		it('should retrieve a property with "%"', function() {
-			var val = jsonPointer('/c%d').get(subject);
+			var val = jsonPointer('/c%25d').get(subject);
 			assert.strictEqual(val, 2);
 		});
 
@@ -202,7 +202,7 @@ describe('jsonPointer', function() {
 
 		it('should retrieve a property with "%"', function() {
 			var subject = make();
-			jsonPointer('/c%d').set(subject, 'test');
+			jsonPointer('/c%25d').set(subject, 'test');
 			assert.strictEqual(subject['c%d'], 'test');
 		});
 
