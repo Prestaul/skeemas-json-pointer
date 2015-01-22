@@ -13,7 +13,7 @@
     "json-schema"
   ],
   "author": "Matt Dunlap <mpdunlap@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
