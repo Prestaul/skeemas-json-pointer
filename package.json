@@ -14,6 +14,10 @@
   ],
   "author": "Matt Dunlap <mpdunlap@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Prestaul/skeemas-json-pointer.git"
+  },
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
