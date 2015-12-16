@@ -34,13 +34,13 @@ var subject = {
 };
 
 // Change a property value
-jsonPointer('#/nested/foo').set('baz'); 
+jsonPointer('#/nested/foo').set(subject, 'baz'); 
 
 // Change an array item
-jsonPointer('#/list/1').set('one'); 
+jsonPointer('#/list/1').set(subject, 'one'); 
 
 // Append an array item
-jsonPointer('#/list/-').set('last'); 
+jsonPointer('#/list/-').set(subject, 'last'); 
 
 assert.deepEqual(subject, {
 	nested: { foo:'baz' },
